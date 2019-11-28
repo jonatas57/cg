@@ -52,7 +52,7 @@ int main() {
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 	
-	GLFWwindow *window = glfwCreateWindow(640, 480, "Hello World", nullptr, nullptr);
+	GLFWwindow *window = glfwCreateWindow(640, 480, "Atividade 1 - parte 1", nullptr, nullptr);
 	if (!window) {
 		glfwTerminate();
 		return -1;
